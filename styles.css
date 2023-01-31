@@ -181,7 +181,7 @@ hr {
 .grid-container h3 {
   font-weight: 700;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 480px){
   .flexcontainer div a{
     display: none;
     
@@ -205,7 +205,7 @@ hr {
 
   
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 480px){
   .gridcontainer2{
     position: relative;
     flex-direction: column;
@@ -215,7 +215,7 @@ hr {
 
   
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 480px){
   .grid-container{
     position: relative;
     display: flex;
@@ -224,7 +224,7 @@ hr {
   }
 
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .gridd .grid-container .grid-item .flexcontainer2 .image1  img {
     src: ('img/image-web-3-mobile.jpg');
   }
@@ -232,7 +232,7 @@ hr {
 .image2 {
   display: none;
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:480px) {
   .image1 {
     display: none;
   }
@@ -243,25 +243,34 @@ hr {
   .flexcontainer2 {
     padding-left: 0px;
     padding-right: 20px;
+    position: relative;
   }
   .flexboxnew {
     padding-left: 30px;
     margin-left: 10px;
     padding-right: 40px;
+    position: relative;
   
     justify-content: center;
   }
-  .text {
-    align-content: flex-start;
-    padding-right: 350px;
-  }
+  
+  
   
   article h1 {
-    padding-left: 120px;
+    padding-left: 0;
+    position: relative;
   }
   .gridcontainer2 {
     padding-left: 40px;
     margin-left: 0;
+    position: relative;
+  }
+  .text {
+    padding-left: 0;
+    flex-direction: initial;
+    align-items: initial;
+    padding-right: 0;
+    position: relative;
   }
 
 
